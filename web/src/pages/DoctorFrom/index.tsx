@@ -5,6 +5,8 @@ import Input from '../../components/Input/index';
 import './styles.css'
 
 //Colcoar um campo para foto do médico.
+//Especialidade podia ser um Select
+//Genero é uma checkbox
 function DoctorForm() {
   return (
     <div id="page-doctorform" className="container">
