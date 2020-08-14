@@ -10,6 +10,7 @@ import './styles.css'
 //Select - Orgão
 //Hospital vem com o id da pessoa que está cadastrando.
 //Colocar idade e data de nascimento um do lado do outro
+//Campo de upload de fotos
 
 function PacientForm() {
   return (
