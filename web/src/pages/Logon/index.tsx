@@ -1,9 +1,11 @@
 import React from 'react';
+import {IoIosArrowDroprightCircle} from 'react-icons/io'
+import { Link } from 'react-router-dom';
 
-import hospitalImg from '../../../assets/hospital_logon.svg'
-// import logoImg from '../../../assets/logo_inery.jpeg'
+import hospitalImg from '../../assets/hospital_logon.svg';
+// import logoImg from '../../assets/logo_inery.jpeg'
 
-import './style.css'
+import './styles.css'
 
 function Logon() {
   return (
@@ -21,6 +23,11 @@ function Logon() {
               <input type="type" placeholder="Seu ID" />
               <input type="password" placeholder="Sua senha" />
               <button className="button" type="submit">Entrar</button>
+
+              <Link  to={"/new_password"} className="back-link">
+                <IoIosArrowDroprightCircle size={16}   color= "#41414d" />
+                Esqueceu sua senha?
+              </Link>
             </form>
           </section>
 
