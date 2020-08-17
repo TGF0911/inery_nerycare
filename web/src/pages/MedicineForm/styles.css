@@ -1,63 +1,59 @@
-#page-doctorform{
+#page-medical-form {
   width: 100vw;
   height: 100vh;
 }
 
-#page-doctorform .page-header .header-content {
-  margin-bottom: 6.4rem;
+#page-medical-form .page-header .header.content{
+  margin-bottom : 6.4rem;
 }
 
-#page-doctorform aside {
-  text-align: start;
 
-}
-
-#page-doctorform main {
-  
+#page-medical-form main{
   background: #fff;
   width: 100%;
   max-width: 74rem;
-  border-radius : 0.8rem;
-  margin: -3.2rem auto 3.2rem;
-  padding-top: 6.4rem;
+  border-radius: 0.8rem;
+  margin: -2.2rem auto 3.2rem;
+  padding-top: 6.4rem; 
   overflow: hidden;
 }
 
-#page-doctorform main fieldset {
+#page-medical-form main fieldset {
   border : 0;
-  padding : 0 2.4rem;
+  padding: 0 2.4rem;
 }
 
-#page-doctorform main fieldset legend{
+#page-medical-form main fieldset legend {
   font: 700 2.4rem Roboto;
   color: #1f0757;
   margin-bottom: 2.4rem;
-  display:flex;
+  display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 100%;
   padding-bottom: 1.6rem;
-  border-bottom: 1px solid #222150;
+  border-radius: 1px solid #222150;
 }
 
-#page-doctorform main footer{
+#page-medical-form main footer {
   padding: 4rem 2.4rem;
   border-top: 1px solid #41414d;
   margin-top: 6.4rem;
 }
 
-#page-doctorform main footer p {
+#page-medical-form main footer p {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.4rem;
   line-height: 2.4rem;
 }
-#page-doctorform main footer p svg {
+
+#page-medical-form main footer p svg {
   margin-right: 2rem;
 }
 
-#page-doctorform main footer button {
+#page-medical-form main footer button {
   width: 100%;
   height: 5.6rem;
   background: #337C94;
@@ -74,37 +70,37 @@
   margin-top: 3.2rem;
 }
 
-#page-doctorform main footer button:hover{
+#page-medical-form main footer button:hover{
   opacity: 0.8;
 }
 
 @media (min-width: 700px){
-  #page-doctorform {
+  #page-medical-form {
     max-width: 100vw;
   }
-
-  #page-doctorform .page-header .header-content{
+  #page-medical-form .page-header .header.content{
     margin-bottom: 0;
   }
 
-  #page-doctorform main fieldset {
+  #page-medical-form main fieldset {
     padding: 0 6.4rem;
   }
 
-  #page-doctorform main footer {
+  #page-medical-form main footer {
     padding: 0.4rem 6.4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
-  #page-doctotform main footer p {
+  #page-medical-form main footer p {
     justify-content: space-between;
-    margin-top: 1.6rem;
+    margin-top: 1.6rem
   }
 
-  #page-doctorform main footer button {
+  #page-medical-form main footer button{
     width: 20rem;
     margin-top: 1.6rem;
   }
+
 }

@@ -78,13 +78,11 @@ button {
   opacity: 0.8;
 }
 
-
-
  
 @media(min-width: 700px){
   :root {
     font-size: 62.5%;
   }
-
+  
 }
 
