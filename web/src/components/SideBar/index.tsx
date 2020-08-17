@@ -1,21 +1,47 @@
 import React from 'react';
 import { IoMdArrowRoundBack } from 'react-icons/io'
+import { Link } from 'react-router-dom'
 
 import './styles.css'
 
 //Ver como fazer o sidebar
 
 const SideBar: React.FC = () => {
+
+
   return (
     <div className="container-sidebar">
+      
+        <Link to="/doctor-form" className="side-bar">
+          <IoMdArrowRoundBack />
+        </Link>
 
-      <button className="side-bar">
-        <IoMdArrowRoundBack size={20} />
-      </button>
+        <Link to="/doctor-form" className="side-bar">
+          <IoMdArrowRoundBack />
+        </Link>
 
-      <div className="separator">
+        <Link to="/doctor-form" className="side-bar">
+          <IoMdArrowRoundBack />
+        </Link>
+        <Link to="/doctor-form" className="side-bar">
+          <IoMdArrowRoundBack />
+        </Link>
+        <Link to="/doctor-form" className="side-bar">
+          <IoMdArrowRoundBack />
+        </Link>
+        <Link to="/doctor-form" className="side-bar">
+          <IoMdArrowRoundBack />
+        </Link>
+        <Link to="/doctor-form" className="side-bar">
+          <IoMdArrowRoundBack />
+        </Link>
+        <Link to="/doctor-form" className="side-bar">
+          <IoMdArrowRoundBack />
+        </Link>
+        <Link to="/doctor-form" className="side-bar">
+          <IoMdArrowRoundBack />
+        </Link>
 
-      </div>
     </div>
   )
 

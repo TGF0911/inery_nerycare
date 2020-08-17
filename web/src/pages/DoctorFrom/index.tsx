@@ -3,14 +3,24 @@ import { RiErrorWarningLine } from 'react-icons/ri'
 
 import Input from '../../components/Input/index';
 import './styles.css'
-
+import SideBar from '../../components/SideBar';
+import PageHeader from '../../components/PageHeader';
+import pacientImg from '../../assets/pacient-img.svg'
 //Colcoar um campo para foto do médico.
 //Especialidade podia ser um Select
 //Genero é uma checkbox
 function DoctorForm() {
   return (
-    <div id="page-doctorform" className="container">
 
+    
+    <div id="page-doctorform" className="container">
+       <PageHeader 
+      src= {pacientImg}
+      alt= "Paciente"
+      title="Cadastro de Paciente"
+      />
+    
+  
       <main>
         <form>
           <fieldset>

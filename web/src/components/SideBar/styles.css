@@ -1,31 +1,20 @@
 
 
-.contianer {
+.container-sidebar {
+  grid-area: sidebar;
 
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   
-
   background-color: #337C94;
-  padding: 1.1rem 0;
-
-  max-height: 100vh;
+  padding: 12px 0;
+  max-width: 70px;
+  max-height: 90vh;
   overflow-y: scroll;
 
+
   
-}
-
-.contianer -webkit-scrollbar {
-  display: none;
-}
-
-
-.separator {
-  width: 3.2rem;
-  border-bottom: 2px solid #4343ff ;
-
-  margin-bottom: 8px;
 }
 
 
@@ -34,12 +23,15 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  flex-direction: column;
 
-  width: 4.8rem;
-  height: 4.8rem;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
 
-  margin-bottom: 0.8rem;
+
+
+  margin: 14px auto 14px;
 
   background-color: #4343ff;
 
@@ -48,7 +40,11 @@
 
 
 }
+
+
+
 .side-bar svg {
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 24px;
+  height: 24px;
+  text-align: center;
 }
